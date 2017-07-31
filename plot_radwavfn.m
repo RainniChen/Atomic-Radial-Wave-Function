@@ -3,8 +3,8 @@ function plot_radwavfn(n,l,h)
     xs = ceil(log(rs));
     
     % get wave functions
-    X = radial_wav_fn(n,l,h,0);
-    R = radial_wav_fn(n,l,h,1);
+    X = radial_wavfn(n,l,h,0);
+    R = radial_wavfn(n,l,h,1);
     
     % plot
     figure('rend','painters','pos',[0 150 850 550])
